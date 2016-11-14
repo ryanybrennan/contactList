@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F6D18F841DA2F52A001843BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18F831DA2F52A001843BE /* AppDelegate.swift */; };
-		F6D18F861DA2F52A001843BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18F851DA2F52A001843BE /* ViewController.swift */; };
+		F6D18F861DA2F52A001843BE /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18F851DA2F52A001843BE /* ContactListViewController.swift */; };
 		F6D18F891DA2F52A001843BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D18F871DA2F52A001843BE /* Main.storyboard */; };
 		F6D18F8C1DA2F52A001843BE /* Contact_list.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6D18F8A1DA2F52A001843BE /* Contact_list.xcdatamodeld */; };
 		F6D18F8E1DA2F52B001843BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D18F8D1DA2F52B001843BE /* Assets.xcassets */; };
 		F6D18F911DA2F52B001843BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D18F8F1DA2F52B001843BE /* LaunchScreen.storyboard */; };
 		F6D18F9C1DA2F52B001843BE /* Contact_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18F9B1DA2F52B001843BE /* Contact_listTests.swift */; };
 		F6D18FA71DA2F52B001843BE /* Contact_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18FA61DA2F52B001843BE /* Contact_listUITests.swift */; };
+		F6D18FB61DA2F760001843BE /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18FB41DA2F760001843BE /* Contact+CoreDataProperties.swift */; };
+		F6D18FB71DA2F760001843BE /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18FB51DA2F760001843BE /* Contact.swift */; };
+		F6D18FB91DA2F825001843BE /* CustomContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18FB81DA2F825001843BE /* CustomContactCell.swift */; };
+		F6D18FBB1DA2FD63001843BE /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18FBA1DA2FD63001843BE /* CancelButtonDelegate.swift */; };
+		F6D18FBD1DA2FDAD001843BE /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18FBC1DA2FDAD001843BE /* ContactDetailsViewController.swift */; };
+		F6D18FBF1DA30060001843BE /* ContactDetailsViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18FBE1DA30060001843BE /* ContactDetailsViewControllerDelegate.swift */; };
+		F6D18FC11DA30372001843BE /* ViewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D18FC01DA30372001843BE /* ViewContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,7 @@
 /* Begin PBXFileReference section */
 		F6D18F801DA2F528001843BE /* Contact_list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contact_list.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D18F831DA2F52A001843BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6D18F851DA2F52A001843BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6D18F851DA2F52A001843BE /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		F6D18F881DA2F52A001843BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6D18F8B1DA2F52A001843BE /* Contact_list.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contact_list.xcdatamodel; sourceTree = "<group>"; };
 		F6D18F8D1DA2F52B001843BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		F6D18FA21DA2F52B001843BE /* Contact_listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Contact_listUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D18FA61DA2F52B001843BE /* Contact_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact_listUITests.swift; sourceTree = "<group>"; };
 		F6D18FA81DA2F52B001843BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D18FB41DA2F760001843BE /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F6D18FB51DA2F760001843BE /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		F6D18FB81DA2F825001843BE /* CustomContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomContactCell.swift; sourceTree = "<group>"; };
+		F6D18FBA1DA2FD63001843BE /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		F6D18FBC1DA2FDAD001843BE /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		F6D18FBE1DA30060001843BE /* ContactDetailsViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewControllerDelegate.swift; sourceTree = "<group>"; };
+		F6D18FC01DA30372001843BE /* ViewContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,8 @@
 		F6D18F771DA2F527001843BE = {
 			isa = PBXGroup;
 			children = (
+				F6D18FB41DA2F760001843BE /* Contact+CoreDataProperties.swift */,
+				F6D18FB51DA2F760001843BE /* Contact.swift */,
 				F6D18F821DA2F529001843BE /* Contact_list */,
 				F6D18F9A1DA2F52B001843BE /* Contact_listTests */,
 				F6D18FA51DA2F52B001843BE /* Contact_listUITests */,
@@ -100,12 +116,17 @@
 			isa = PBXGroup;
 			children = (
 				F6D18F831DA2F52A001843BE /* AppDelegate.swift */,
-				F6D18F851DA2F52A001843BE /* ViewController.swift */,
+				F6D18F851DA2F52A001843BE /* ContactListViewController.swift */,
 				F6D18F871DA2F52A001843BE /* Main.storyboard */,
 				F6D18F8D1DA2F52B001843BE /* Assets.xcassets */,
 				F6D18F8F1DA2F52B001843BE /* LaunchScreen.storyboard */,
 				F6D18F921DA2F52B001843BE /* Info.plist */,
 				F6D18F8A1DA2F52A001843BE /* Contact_list.xcdatamodeld */,
+				F6D18FB81DA2F825001843BE /* CustomContactCell.swift */,
+				F6D18FBA1DA2FD63001843BE /* CancelButtonDelegate.swift */,
+				F6D18FBC1DA2FDAD001843BE /* ContactDetailsViewController.swift */,
+				F6D18FBE1DA30060001843BE /* ContactDetailsViewControllerDelegate.swift */,
+				F6D18FC01DA30372001843BE /* ViewContactViewController.swift */,
 			);
 			path = Contact_list;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D18F861DA2F52A001843BE /* ViewController.swift in Sources */,
+				F6D18FC11DA30372001843BE /* ViewContactViewController.swift in Sources */,
+				F6D18FB61DA2F760001843BE /* Contact+CoreDataProperties.swift in Sources */,
+				F6D18F861DA2F52A001843BE /* ContactListViewController.swift in Sources */,
+				F6D18FBF1DA30060001843BE /* ContactDetailsViewControllerDelegate.swift in Sources */,
+				F6D18FB71DA2F760001843BE /* Contact.swift in Sources */,
+				F6D18FB91DA2F825001843BE /* CustomContactCell.swift in Sources */,
+				F6D18FBB1DA2FD63001843BE /* CancelButtonDelegate.swift in Sources */,
 				F6D18F841DA2F52A001843BE /* AppDelegate.swift in Sources */,
+				F6D18FBD1DA2FDAD001843BE /* ContactDetailsViewController.swift in Sources */,
 				F6D18F8C1DA2F52A001843BE /* Contact_list.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
